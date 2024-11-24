@@ -5,7 +5,7 @@ A weather application built using React and Material UI that fetches weather dat
 ## Features
 - Search for a city to get the current weather.
 - Displays weather details like temperature, humidity, and description.
-- Changes background and card images based on weather conditions (cold or hot).
+- Changes card images based on weather conditions (cold or hot).
 - Built using React and Material UI.
 - Fetches weather data from the OpenWeather API.
 
