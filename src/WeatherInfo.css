@@ -1,0 +1,21 @@
+.Heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(45deg, #f19393, #000000);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.Heading:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+body {
+  overflow-x: hidden;
+}

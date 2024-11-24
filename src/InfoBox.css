@@ -1,0 +1,67 @@
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cardMedia {
+  height: 250px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.cardContent h5 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temperature {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #ff6f61;
+}
+
+.weather-description {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.icon {
+  margin-left: 8px;
+  font-size: 2.2rem;
+  color: #ff6f61;
+}
+
+.cardContent div {
+  margin-bottom: 10px;
+}
+
+.cardContent span {
+  color: #888;
+}
